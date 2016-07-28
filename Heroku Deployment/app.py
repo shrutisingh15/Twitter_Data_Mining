@@ -1,3 +1,4 @@
+
 import pandas
 from bokeh.charts import Bar, Scatter, output_file, show
 from flask import Flask,render_template
@@ -19,7 +20,7 @@ def Diversity_Chart():
      
 @app.route('/relation')
 def Relation_Chart():
-    dataset = pandas.read_csv("dataset1.csv")
+    dataset = pandas.read_csv("finaldata.csv")
     s = Scatter(dataset, x= "Retweet_Count", y= "Favorite_Count",xlabel='Retweet_Count',ylabel='Favorite_Count',marker='diamond',color='green')
     script2, div2 = components(s)
     return render_template('compare.html', script2=script2, div2=div2)
