@@ -1,0 +1,16 @@
+Newspaper,Lexical Diversity,Type
+nytimes,0.359196561,words
+nytimes,0.994949495,urls
+nytimes,0.515151515,hashtags
+washingtonpost,0.38031028,words
+washingtonpost,0.965760322,urls
+washingtonpost,0.160714286,hashtags
+WSJ,0.38597325,words
+WSJ,0.982492276,urls
+WSJ,0.141304348,hashtags
+USATODAY,0.404454865,words
+USATODAY,0.919060052,urls
+USATODAY,0.181623932,hashtags
+guardian,0.390565003,words
+guardian,0.941598361,urls
+guardian,0.11627907,hashtags
